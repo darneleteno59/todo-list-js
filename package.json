@@ -1,9 +1,14 @@
 {
   "scripts": {
-    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+    "jsdoc": "npx node_modules/.bin/jsdoc",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "live-server": "npx live-server"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.16",
     "tailwindcss": "^4.1.16"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.5"
   }
 }
